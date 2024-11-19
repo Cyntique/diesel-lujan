@@ -2098,3 +2098,19 @@ a {
 .cid-sFCygHrmNf .row .row-copirayt p {
   width: 100%;
 }
+
+/*Mis estilos*/
+#whatsapp{
+  max-width: 10%;
+  position: fixed;
+  right: 87px;
+  bottom: 15%;
+}
+
+#whatsapp img{
+  animation: bounce 2s 2s;
+  
+}
+#whatsapp img:hover{
+  animation: pulse 2s;
+}
