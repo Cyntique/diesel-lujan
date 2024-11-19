@@ -2114,3 +2114,8 @@ a {
 #whatsapp img:hover{
   animation: pulse 2s;
 }
+@media (max-width: 767px){
+  #whatsapp img{
+    display: none;
+  }
+}
