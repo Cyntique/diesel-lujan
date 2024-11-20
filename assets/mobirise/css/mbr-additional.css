@@ -2103,8 +2103,8 @@ a {
 #whatsapp{
   max-width: 10%;
   position: fixed;
-  right: 87px;
-  bottom: 15%;
+  right: 30px;
+  bottom: 17%;
 }
 
 #whatsapp img{
@@ -2114,8 +2114,16 @@ a {
 #whatsapp img:hover{
   animation: pulse 2s;
 }
+
 @media (max-width: 767px){
-  #whatsapp img{
-    display: none;
+  #whatsapp{
+    max-width: 15%;
+  }
+}
+@media (max-width: 500px){
+  #whatsapp{
+    max-width: 15%;
+    bottom: 5%;
+    right: 10px;
   }
 }
