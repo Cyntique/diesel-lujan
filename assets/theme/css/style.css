@@ -333,9 +333,6 @@ nav .mbr-section-btn {
   font-weight: 700;
 }
 
-[type=submit] {
-  -webkit-appearance: none;
-}
 
 /*! Full-screen */
 .mbr-fullscreen .mbr-overlay {
@@ -594,12 +591,14 @@ nav .mbr-section-btn {
 }
 
 .row {
-  display: -webkit-flex;
-  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  display: -webkit-flex; /* Prefijo para compatibilidad */
+  -webkit-flex-wrap: wrap; /* Solo para navegadores antiguos */
 }
 
 .justify-content-center {
-  -webkit-justify-content: center;
+   justify-content: center;
 }
 
 .form-inline {
