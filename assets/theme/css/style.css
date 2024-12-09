@@ -223,7 +223,7 @@ iframe {
 .card-img {
   text-align: center;
   flex-shrink: 0;
-  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 .media {
@@ -432,7 +432,7 @@ nav .mbr-section-btn {
   display: inline-block;
   text-decoration: none;
   outline-style: none;
-  -webkit-animation: arrowdown 1.7s ease-in-out infinite;
+  animation: arrowdown 1.7s ease-in-out infinite;
           animation: arrowdown 1.7s ease-in-out infinite;
   color: #ffffff;
 }
@@ -517,17 +517,17 @@ nav .mbr-section-btn {
 }
 
 .menu .navbar-brand {
-  display: -webkit-flex;
+  display: flex;
 }
 .menu .navbar-brand span {
   display: flex;
-  display: -webkit-flex;
+  display: flex;
 }
 .menu .navbar-brand .navbar-caption-wrap {
-  display: -webkit-flex;
+  display: flex;
 }
 .menu .navbar-brand .navbar-logo img {
-  display: -webkit-flex;
+  display: flex;
   width: auto;
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -545,10 +545,10 @@ nav .mbr-section-btn {
 }
 @media (min-width: 992px) {
   .menu .navbar-nav.nav-dropdown {
-    display: -webkit-flex;
+    display: flex;
   }
   .menu .navbar-toggleable-sm .navbar-collapse {
-    display: -webkit-flex !important;
+    display: flex !important;
   }
   .menu .collapsed .navbar-collapse {
     max-height: 93.5vh;
@@ -568,16 +568,16 @@ nav .mbr-section-btn {
 }
 
 .navbar {
-  display: -webkit-flex;
-  -webkit-flex-wrap: wrap;
-  -webkit-align-items: center;
-  -webkit-justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navbar-collapse {
-  -webkit-flex-basis: 100%;
-  -webkit-flex-grow: 1;
-  -webkit-align-items: center;
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
 }
 
 .nav-dropdown .link {
@@ -586,15 +586,13 @@ nav .mbr-section-btn {
 }
 
 .nav {
-  display: -webkit-flex;
-  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
-  display: -webkit-flex; /* Prefijo para compatibilidad */
-  -webkit-flex-wrap: wrap; /* Solo para navegadores antiguos */
 }
 
 .justify-content-center {
@@ -602,24 +600,24 @@ nav .mbr-section-btn {
 }
 
 .form-inline {
-  display: -webkit-flex;
+  display: flex;
 }
 
 .card-wrapper {
-  -webkit-flex: 1;
+  flex: 1;
 }
 
 .carousel-control {
   z-index: 10;
-  display: -webkit-flex;
+  display: flex;
 }
 
 .carousel-controls {
-  display: -webkit-flex;
+  display: flex;
 }
 
 .media {
-  display: -webkit-flex;
+  display: flex;
 }
 
 .form-group:focus {
