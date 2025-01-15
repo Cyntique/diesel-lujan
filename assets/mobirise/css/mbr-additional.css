@@ -2443,3 +2443,56 @@ a {
     max-width: 12.5%;
   }
 }
+
+@media (max-width: 767px) {
+  .navbar-caption {
+      font-size: 1.2rem;
+  }
+
+  .mbr-section-title {
+      font-size: 1.5rem;
+      line-height: 1.3;
+  }
+
+  .mbr-text {
+      font-size: 1.2rem;
+  }
+
+  .btn {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+  }
+
+  .cid-usKzsOrFWK .item-wrapper{
+    align-items: center;
+  }
+  .cid-usKzsOrFWK .item-wrapper .item-img{
+    max-width: 60%;
+    height: auto;
+  }
+  
+
+  .gallery-image {
+      margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .navbar-brand {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .navbar-logo {
+      margin-bottom: 0.5rem;
+  }
+
+  .gallery-image img {
+      width: 100%;
+      height: auto;
+  }
+
+  .mbr-section-head {
+      padding: 0 1rem;
+  }
+}
